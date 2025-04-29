@@ -12,6 +12,32 @@ In order to use these exercises, the following requirements must be met:
 It is strongly recommended that these lessons be completed using a Linux 
 environment, either natively installed or WSL, but it is not mandatory.
 
+## Compiling
+
+The projects can be compiled using the following console commands:
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+Then, from the build directory, you can run the executable:
+
+Linux:
+
+```bash
+./build/Section01/project
+```
+
+Windows:
+
+```bat
+build\Section01\Debug\project
+```
+
+These examples are for the Section 1 project, you can replace `Section01`
+with whatever project code you want to run.
+
 ## Contents
 
 ### Section 1 - Basic Concepts
