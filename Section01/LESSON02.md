@@ -74,9 +74,9 @@ radius
 
 This satisfies the requirements for an identifier:
 
-[x] `radius` is not a keyword.
-[x] `radius` is only made up of letters.
-[x] `r` is the first character in the identifier.
+- [x] `radius` is not a keyword.
+- [x] `radius` is only made up of letters.
+- [x] `r` is the first character in the identifier.
 
 In this case we use the identifier `radius` in the next line to 
 identify what value we want to print to `std::cout`.
