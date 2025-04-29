@@ -1,0 +1,1 @@
+add_executable(project ${CMAKE_CURRENT_SOURCE_DIR}/Project/main.cpp)
