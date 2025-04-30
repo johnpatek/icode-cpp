@@ -68,5 +68,6 @@ int main()
     print_num(num);
     num = 2;
     print_num(num);
+    return 0;
 }
 ```
