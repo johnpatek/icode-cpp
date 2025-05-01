@@ -53,6 +53,8 @@ variable `my_double` was declared as a `double`.
 
 ### Example
 
+Here is a snippet where we use datat types, variables, and functions:
+
 ```c++
 #include <iostream>
 
@@ -70,4 +72,38 @@ int main()
     print_num(num);
     return 0;
 }
+```
+
+Let's look at how the function is declared:
+
+```c++
+static void print_num(int val)
+```
+
+It is declared using the keywords `static` and `void`. The `static` 
+keyword tells the compiler that the function will only be used in this
+file, and the `void` keyword indicates that no value will be sent back
+to us when the function exits. The identifier `print_num` will be used
+to call the function, and `int val` means that we need to pass an `int`
+value when calling the function. The block of code between `{` and `}` 
+will run whenever we call the function. Now let's look at the variable 
+and how it's used in our main function:
+
+```c++
+int num;
+num = 1;
+print_num(num);
+num = 2;
+print_num(num);
+```
+
+Our declaration is `int num`. It tells the compiler that we want an `int`
+type variable in our main function. `num = 1` and `num = 2` are both
+assignments. The `print_num(num)` statements are function calls where
+we pass the value of `num` to the function. If we compile and run this
+code, our output will look like this:
+
+```
+the value is 1
+the value is 2
 ```
